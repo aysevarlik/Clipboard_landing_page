@@ -1,0 +1,170 @@
+html{
+    font-size: 18px;
+}
+body{
+    font-family: "Bai Jamjuree";
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+}
+.header{
+    text-align: center;
+}
+.header_text{
+    text-align: center;
+    margin-top: 8rem;
+}
+button{
+    margin-top: 2rem;
+    font-size: small;
+    font-weight: 400;
+    color: white;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.middle{
+    flex-direction: row;
+    margin-top: 5rem;
+}
+.page{
+    margin-top: 5rem;
+}
+.page_top{
+    text-align: center;
+    width: 40rem;
+}
+.text_comp{
+    padding-top: 5rem;
+    padding-right: 13rem;
+}
+.text_comp .p{
+    margin-bottom: 2rem;
+}
+.crop {
+    width: 800px;
+    height: 700px;
+    float: left;
+}
+.crop img {
+    width: 700px;
+    height: 600px;
+    object-fit: cover;
+    object-position: right;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0 7rem 0;
+}
+.icon{
+    text-align: center;
+    width: 22rem;
+    margin: 0 1rem 0 1rem;
+}
+.logos{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.logos img{
+    margin: 0 3.5rem 0 3.5rem;
+}
+.buttons_2 button{
+    margin-top: 2rem;
+    font-size: small;
+    font-weight: 600;
+    color: white;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.footer{
+    background-color: hsl(0, 0%, 95%);
+}
+
+@media screen and (max-width:800px) {
+    html{
+        width: 100vh!important;
+    }
+    .body{
+        width: 100%!important;
+        background-image: url(images/bg-header-mobile.png);
+        background-repeat: no-repeat;
+    }
+    .header button,
+    .page_bottom button{
+        padding-left: 10rem!important;
+        padding-right: 10rem!important;
+        padding-top: 1.5rem!important;
+        padding-bottom: 1.5rem!important;
+        font-size: 2rem;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    }
+    #bg-img{
+        width: 100vh;
+    }
+    .page_top{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .page{
+        text-align: center;
+    }
+    .page_top h2,
+    .text h2,
+    .text_2 h2,
+    .bottom_text h2,
+    .header_text h2{
+        font-size: 3.5rem;
+    }
+    .page_top p,
+    .middle .p,
+    .text p,
+    .text_2 p,
+    .bottom_text p,
+    .icons p,
+    .header_text p{
+        font-size: 2rem;
+    }
+    .middle {
+        text-align: center!important;
+    }    
+    .middle .title,
+    .icons h5{
+        font-size: 2.5rem!important;
+    }
+    .middle #title_1{
+        padding-top: 40rem;
+    }
+    .crop img{
+        width: 800px;
+    }
+    .crop{
+        width: 700px;
+        justify-content: center!important;
+    }
+    .text_comp{
+        padding-left: 5rem;
+        padding-right: 5rem;
+        flex-direction: column;
+    }
+    .text, .text_2{
+        padding-left: 5rem!important;
+        padding-right: 5rem!important;
+    }
+    .icons{
+        flex-direction: column;
+    }
+    .icon{
+        margin: 3rem auto 0 auto;
+        width: 40rem;
+    }
+    .logos{
+        width: 20rem;
+        margin: 0 auto 0 auto;
+    }
+    .logos img{
+        width: 15rem;
+        margin-bottom: 8rem;
+    }
+    .footer p{
+        font-size: 1rem;
+    }
+}
